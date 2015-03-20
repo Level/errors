@@ -7,6 +7,12 @@ level-errors
 
 WIP
 
+Publishers
+----------
+
+* [@ralphtheninja](https://github.com/ralphtheninja)
+* [@juliangruber](https://github.com/juliangruber)
+
 License &amp; copyright
 -------------------
 
