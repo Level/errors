@@ -5,7 +5,19 @@ level-errors
 
 **Error module for [LevelUP](https://github.com/rvagg/node-levelup)**
 
-WIP
+Usage
+-----
+
+```js
+var levelup = require('levelup')
+var errors = levelup.errors
+
+levelup('./db', { createIfMissing: false }, function (err, db) {
+  if (err instanceof errors.OpenError) {
+    console.log('open failed because expected db to exist')
+  }
+})
+```
 
 Publishers
 ----------
