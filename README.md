@@ -5,7 +5,7 @@ level-errors
 
 **Error module for [LevelUP](https://github.com/rvagg/node-levelup)**
 
-[![Build Status](https://travis-ci.org/level/errors.png)](https://travis-ci.org/level/errors)
+[![Build Status](https://travis-ci.org/Level/errors.png)](https://travis-ci.org/Level/errors)
 
 Usage
 -----
