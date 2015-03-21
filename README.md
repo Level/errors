@@ -1,5 +1,5 @@
-level-errors
-============
+
+# level-errors
 
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
 
@@ -7,8 +7,7 @@ level-errors
 
 [![Build Status](https://travis-ci.org/Level/errors.png)](https://travis-ci.org/Level/errors)
 
-Usage
------
+## Usage
 
 ```js
 var levelup = require('levelup')
@@ -21,14 +20,12 @@ levelup('./db', { createIfMissing: false }, function (err, db) {
 })
 ```
 
-Publishers
-----------
+## Publishers
 
 * [@ralphtheninja](https://github.com/ralphtheninja)
 * [@juliangruber](https://github.com/juliangruber)
 
-License &amp; copyright
--------------------
+## License &amp; copyright
 
 Copyright (c) 2012-2015 LevelUP contributors.
 
