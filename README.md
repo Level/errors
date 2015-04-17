@@ -20,6 +20,41 @@ levelup('./db', { createIfMissing: false }, function (err, db) {
 })
 ```
 
+## API
+
+### .LevelUPError()
+
+  Generic error base class.
+
+### .InitializationError()
+
+  Error initializing the database, like when the database's location argument is missing.
+
+### .OpenError()
+
+  Error opening the database.
+
+### .ReadError()
+
+  Error reading from the database.
+
+### .WriteError()
+
+  Error writing to the database.
+
+### .NotFoundError()
+
+  Data not found error.
+
+  Has extra properties:
+
+  - `notFound`: `true`
+  - `status`: 404
+
+### .EncodingError()
+
+  Error encoding data.
+
 ## Publishers
 
 * [@ralphtheninja](https://github.com/ralphtheninja)
