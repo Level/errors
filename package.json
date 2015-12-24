@@ -38,6 +38,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tape": "^3.5.0"
+    "tape": "^4.3.0"
   }
 }
