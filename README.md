@@ -62,6 +62,6 @@ levelup('./db', { createIfMissing: false }, function (err, db) {
 
 ## License &amp; copyright
 
-Copyright (c) 2012-2015 LevelUP contributors.
+Copyright (c) 2012-2017 LevelUP contributors.
 
 LevelUP is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
