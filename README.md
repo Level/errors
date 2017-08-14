@@ -1,6 +1,8 @@
 
 # level-errors
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Level/errors.svg)](https://greenkeeper.io/)
+
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
 
 **Error module for [LevelUP](https://github.com/rvagg/node-levelup)**
