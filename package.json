@@ -33,6 +33,7 @@
     "errors"
   ],
   "main": "errors.js",
+  "typings": "errors.d.ts",
   "dependencies": {
     "errno": "~0.1.1"
   },
