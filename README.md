@@ -3,15 +3,16 @@
 
 <img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
 
-**Error module for [LevelUP](https://github.com/rvagg/node-levelup)**
+> Error module for [LevelUP](https://github.com/rvagg/node-levelup)
 
-[![Build Status](https://travis-ci.org/Level/errors.png)](https://travis-ci.org/Level/errors) [![Greenkeeper badge](https://badges.greenkeeper.io/Level/errors.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/Level/errors.png)](https://travis-ci.org/Level/errors)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Level/errors.svg)](https://greenkeeper.io/)
 
 ## Usage
 
 ```js
-var levelup = require('levelup')
-var errors = levelup.errors
+const levelup = require('levelup')
+const errors = levelup.errors
 
 levelup('./db', { createIfMissing: false }, function (err, db) {
   if (err instanceof errors.OpenError) {
