@@ -1,13 +1,12 @@
-
 # level-errors
 
-<img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
+> Error module for [levelup][levelup]
 
-> Error module for [LevelUP](https://github.com/rvagg/node-levelup)
-
+[![level badge][level-badge]](https://github.com/level/awesome)
 [![Build Status](https://travis-ci.org/Level/errors.png)](https://travis-ci.org/Level/errors)
+[![dependencies](https://david-dm.org/Level/level.svg)](https://david-dm.org/level/level)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Greenkeeper badge](https://badges.greenkeeper.io/Level/errors.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/dm/level-errors.svg)](https://www.npmjs.com/package/level-errors)
 
 ## Usage
 
@@ -67,3 +66,6 @@ levelup('./db', { createIfMissing: false }, function (err, db) {
 Copyright (c) 2012-2017 LevelUP contributors.
 
 LevelUP is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
+
+[level-badge]: http://leveldb.org/img/badge.svg
+[levelup]: https://github.com/level/levelup
