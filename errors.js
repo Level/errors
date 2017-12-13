@@ -4,9 +4,9 @@
  * <https://github.com/rvagg/node-levelup/blob/master/LICENSE.md>
  */
 
-var createError = require('errno').create,
-  LevelUPError = createError('LevelUPError'),
-  NotFoundError = createError('NotFoundError', LevelUPError)
+var createError = require('errno').create
+var LevelUPError = createError('LevelUPError')
+var NotFoundError = createError('NotFoundError', LevelUPError)
 
 NotFoundError.prototype.notFound = true
 NotFoundError.prototype.status = 404
