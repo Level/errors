@@ -3,23 +3,10 @@
 > Error module for [levelup][levelup]
 
 [![level badge][level-badge]](https://github.com/level/awesome)
-[![Build Status](https://travis-ci.org/Level/errors.png)](https://travis-ci.org/Level/errors)
+[![Build Status](https://travis-ci.org/Level/errors.svg)](https://travis-ci.org/Level/errors)
 [![dependencies](https://david-dm.org/Level/level.svg)](https://david-dm.org/level/level)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm](https://img.shields.io/npm/dm/level-errors.svg)](https://www.npmjs.com/package/level-errors)
-
-## Usage
-
-```js
-const levelup = require('levelup')
-const errors = levelup.errors
-
-levelup('./db', { createIfMissing: false }, function (err, db) {
-  if (err instanceof errors.OpenError) {
-    console.log('open failed because expected db to exist')
-  }
-})
-```
 
 ## API
 
