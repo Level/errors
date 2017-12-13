@@ -6,6 +6,7 @@
 > Error module for [LevelUP](https://github.com/rvagg/node-levelup)
 
 [![Build Status](https://travis-ci.org/Level/errors.png)](https://travis-ci.org/Level/errors)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Level/errors.svg)](https://greenkeeper.io/)
 
 ## Usage

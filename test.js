@@ -1,9 +1,9 @@
-var test   = require('tape')
-  , errors = require('./')
+var test = require('tape')
+var errors = require('./')
 
 test('all errors are instances of LevelUPError', function (t) {
   var LevelUPError = errors.LevelUPError
-    , keys         = Object.keys(errors)
+  var keys = Object.keys(errors)
 
   keys.forEach(function (key) {
     t.ok(new errors[key]() instanceof LevelUPError)
