@@ -3,6 +3,8 @@
 > Error module for [levelup][levelup]
 
 [![level badge][level-badge]](https://github.com/level/awesome)
+[![npm](https://img.shields.io/npm/v/level-errors.svg)](https://www.npmjs.com/package/level-errors)
+![Node version](https://img.shields.io/node/v/level-errors.svg)
 [![Build Status](https://travis-ci.org/Level/errors.svg)](https://travis-ci.org/Level/errors)
 [![dependencies](https://david-dm.org/Level/level.svg)](https://david-dm.org/level/level)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -10,49 +12,44 @@
 
 ## API
 
-### .LevelUPError()
+### `.LevelUPError()`
 
-  Generic error base class.
+Generic error base class.
 
-### .InitializationError()
+### `.InitializationError()`
 
-  Error initializing the database, like when the database's location argument is missing.
+Error initializing the database, like when the database's location argument is missing.
 
-### .OpenError()
+### `.OpenError()`
 
-  Error opening the database.
+Error opening the database.
 
-### .ReadError()
+### `.ReadError()`
 
-  Error reading from the database.
+Error reading from the database.
 
-### .WriteError()
+### `.WriteError()`
 
-  Error writing to the database.
+Error writing to the database.
 
-### .NotFoundError()
+### `.NotFoundError()`
 
-  Data not found error.
+Data not found error.
 
-  Has extra properties:
+Has extra properties:
 
-  - `notFound`: `true`
-  - `status`: 404
+- `notFound`: `true`
+- `status`: 404
 
-### .EncodingError()
+### `.EncodingError()`
 
-  Error encoding data.
+Error encoding data.
 
-## Publishers
+## License
 
-* [@ralphtheninja](https://github.com/ralphtheninja)
-* [@juliangruber](https://github.com/juliangruber)
+Copyright &copy; 2012-2018 `level-errors` contributors.
 
-## License &amp; copyright
-
-Copyright (c) 2012-2017 LevelUP contributors.
-
-LevelUP is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE.md file for more details.
+`level-errors` is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included `LICENSE.md` file for more details.
 
 [level-badge]: http://leveldb.org/img/badge.svg
 [levelup]: https://github.com/level/levelup

@@ -38,6 +38,9 @@
     "errno": "~0.1.1"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
   "devDependencies": {
     "standard": "^11.0.0",
     "tape": "^4.3.0"
