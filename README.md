@@ -47,9 +47,7 @@ Error encoding data.
 
 ## License
 
-Copyright &copy; 2012-present `level-errors` contributors.
-
-`level-errors` is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included `LICENSE.md` file for more details.
+[MIT](./LICENSE.md) © 2012-present `level-errors` [Contributors](./CONTRIBUTORS.md).
 
 [level-badge]: http://leveldb.org/img/badge.svg
 [levelup]: https://github.com/level/levelup
