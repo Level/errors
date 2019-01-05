@@ -1,14 +1,26 @@
 {
   "name": "level-errors",
-  "description": "Error types for LevelUP",
   "version": "2.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/level/errors.git"
-  },
+  "description": "Error types for LevelUP",
+  "license": "MIT",
+  "main": "errors.js",
   "scripts": {
     "test": "standard && nyc node test.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "errno": "~0.1.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "nyc": "^12.0.2",
+    "standard": "^12.0.0",
+    "tape": "^4.3.0"
+  },
+  "typings": "errors.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/level/errors.git"
   },
   "homepage": "https://github.com/level/errors.git",
   "keywords": [
@@ -17,19 +29,7 @@
     "leveldown",
     "errors"
   ],
-  "main": "errors.js",
-  "typings": "errors.d.ts",
-  "dependencies": {
-    "errno": "~0.1.1"
-  },
-  "license": "MIT",
   "engines": {
     "node": ">=6"
-  },
-  "devDependencies": {
-    "coveralls": "^3.0.2",
-    "nyc": "^12.0.2",
-    "standard": "^12.0.0",
-    "tape": "^4.3.0"
   }
 }
