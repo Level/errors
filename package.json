@@ -28,7 +28,7 @@
     "type": "git",
      "url": "https://github.com/Level/errors.git"
   },
-   "homepage": "https://github.com/Level/errors",
+  "homepage": "https://github.com/Level/errors",
   "keywords": [
     "level",
     "leveldb",
