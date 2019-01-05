@@ -59,4 +59,5 @@ See the [Contribution Guide](https://github.com/Level/community/blob/master/CONT
 [MIT](LICENSE.md) © 2012-present [Contributors](CONTRIBUTORS.md).
 
 [level-badge]: http://leveldb.org/img/badge.svg
+
 [levelup]: https://github.com/level/levelup
