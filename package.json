@@ -19,6 +19,9 @@
     "standard": "^12.0.0",
     "tape": "^4.3.0"
   },
+  "hallmark": {
+    "community": "level-community"
+  },
   "typings": "errors.d.ts",
   "repository": {
     "type": "git",
