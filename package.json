@@ -5,8 +5,9 @@
   "license": "MIT",
   "main": "errors.js",
   "scripts": {
-    "test": "standard && nyc node test.js",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "standard && hallmark && nyc node test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "hallmark": "hallmark --fix"
   },
   "dependencies": {
     "errno": "~0.1.1"
