@@ -26,7 +26,7 @@
   "typings": "errors.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/level/errors.git"
+     "url": "https://github.com/Level/errors.git"
   },
   "homepage": "https://github.com/level/errors.git",
   "keywords": [
