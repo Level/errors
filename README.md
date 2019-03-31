@@ -1,6 +1,6 @@
 # level-errors
 
-> Error module for [levelup][levelup]
+> Error types for [levelup][levelup].
 
 [![level badge][level-badge]](https://github.com/Level/awesome)
 [![npm](https://img.shields.io/npm/v/level-errors.svg?label=&logo=npm)](https://www.npmjs.com/package/level-errors)
@@ -13,6 +13,8 @@
 [![Sponsors on Open Collective](https://opencollective.com/level/sponsors/badge.svg?color=orange)](#sponsors)
 
 ## API
+
+**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md).
 
 ### `.LevelUPError()`
 
