@@ -4,7 +4,7 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 ## [Unreleased][unreleased]
 
-## [3.0.0] - 2019-03-31
+## [2.0.1] - 2019-04-01
 
 ### Changed
 
@@ -15,12 +15,12 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 ### Added
 
-- Add nyc and coveralls ([#18](https://github.com/Level/errors/issues/18), [#22](https://github.com/Level/errors/issues/22)) ([**@ralphtheninja**](https://github.com/ralphtheninja), [**@vweevers**](https://github.com/vweevers))
+- Add `nyc` and `coveralls` ([#18](https://github.com/Level/errors/issues/18), [#22](https://github.com/Level/errors/issues/22)) ([**@ralphtheninja**](https://github.com/ralphtheninja), [**@vweevers**](https://github.com/vweevers))
 
 ### Removed
 
-- Drop node 9 ([`9254882`](https://github.com/Level/errors/commit/9254882)) ([**@ralphtheninja**](https://github.com/ralphtheninja))
-- Remove typings ([`0ad3b37`](https://github.com/Level/errors/commit/0ad3b37)) ([**@vweevers**](https://github.com/vweevers))
+- Remove node 9 from travis ([`9254882`](https://github.com/Level/errors/commit/9254882)) ([**@ralphtheninja**](https://github.com/ralphtheninja))
+- Remove experimental typings ([`0ad3b37`](https://github.com/Level/errors/commit/0ad3b37)) ([**@vweevers**](https://github.com/vweevers))
 - Remove contributors from `package.json` ([`29e1ae1`](https://github.com/Level/errors/commit/29e1ae1)) ([**@ralphtheninja**](https://github.com/ralphtheninja))
 - Remove copyright headers from code ([`f5e5e40`](https://github.com/Level/errors/commit/f5e5e40)) ([**@ralphtheninja**](https://github.com/ralphtheninja))
 
@@ -106,9 +106,9 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 :seedling: Initial release.
 
-[unreleased]: https://github.com/Level/errors/compare/v3.0.0...HEAD
+[unreleased]: https://github.com/Level/errors/compare/v2.0.1...HEAD
 
-[3.0.0]: https://github.com/Level/errors/compare/v2.0.0...v3.0.0
+[2.0.1]: https://github.com/Level/errors/compare/v2.0.0...v2.0.1
 
 [2.0.0]: https://github.com/Level/errors/compare/v1.1.2...v2.0.0
 
