@@ -4,7 +4,7 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 ## [Unreleased][unreleased]
 
-## [2.0.1] - 2019-04-01
+## [2.0.1] - 2019-04-05
 
 ### Changed
 
