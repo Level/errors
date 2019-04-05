@@ -1,7 +1,7 @@
 {
   "name": "level-errors",
   "version": "2.0.0",
-  "description": "Error types for LevelUP",
+  "description": "Error types for levelup",
   "license": "MIT",
   "main": "errors.js",
   "scripts": {
@@ -26,7 +26,6 @@
   "hallmark": {
     "community": "level-community"
   },
-  "typings": "errors.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Level/errors.git"
