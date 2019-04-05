@@ -26,7 +26,6 @@
   "hallmark": {
     "community": "level-community"
   },
-  "typings": "errors.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Level/errors.git"
