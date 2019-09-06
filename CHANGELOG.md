@@ -2,8 +2,6 @@
 
 _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
-## [Unreleased][unreleased]
-
 ## [2.0.1] - 2019-04-05
 
 ### Changed
@@ -105,8 +103,6 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 ## 1.0.1 - 2015-03-20
 
 :seedling: Initial release.
-
-[unreleased]: https://github.com/Level/errors/compare/v2.0.1...HEAD
 
 [2.0.1]: https://github.com/Level/errors/compare/v2.0.0...v2.0.1
 
