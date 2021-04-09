@@ -1,3 +1,5 @@
+'use strict'
+
 const createError = require('errno').create
 const LevelUPError = createError('LevelUPError')
 const NotFoundError = createError('NotFoundError', LevelUPError)

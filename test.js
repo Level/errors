@@ -1,5 +1,7 @@
+'use strict'
+
 const test = require('tape')
-const errors = require('./')
+const errors = require('.')
 
 test('all errors are instances of LevelUPError', function (t) {
   const LevelUPError = errors.LevelUPError
