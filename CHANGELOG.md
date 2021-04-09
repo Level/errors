@@ -2,6 +2,15 @@
 
 _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
+## [3.0.0] - 2021-04-09
+
+### Changed
+
+- **Breaking:** drop node 6 and 8 ([Level/community#98](https://github.com/Level/community/issues/98)) ([`bb296b9`](https://github.com/Level/errors/commit/bb296b9)) (Vincent Weevers)
+- **Breaking:** modernize syntax and bump `standard` ([Level/community#98](https://github.com/Level/community/issues/98)) ([`5a6de73`](https://github.com/Level/errors/commit/5a6de73)) (Vincent Weevers)
+- Bump `errno` from 0.1.8 to 1.0.0 ([#34](https://github.com/Level/errors/issues/34)) ([`bb5ec3a`](https://github.com/Level/errors/commit/bb5ec3a), [`6756d89`](https://github.com/Level/errors/commit/6756d89)) (Lars-Magnus Skog, Vincent Weevers)
+- Add `files` to `package.json` ([`83d2dcd`](https://github.com/Level/errors/commit/83d2dcd)) (Vincent Weevers).
+
 ## [2.0.1] - 2019-04-05
 
 ### Changed
@@ -103,6 +112,8 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 ## 1.0.1 - 2015-03-20
 
 :seedling: Initial release.
+
+[3.0.0]: https://github.com/Level/errors/compare/v2.0.1...v3.0.0
 
 [2.0.1]: https://github.com/Level/errors/compare/v2.0.0...v2.0.1
 
