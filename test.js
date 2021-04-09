@@ -1,9 +1,9 @@
-var test = require('tape')
-var errors = require('./')
+const test = require('tape')
+const errors = require('./')
 
 test('all errors are instances of LevelUPError', function (t) {
-  var LevelUPError = errors.LevelUPError
-  var keys = Object.keys(errors)
+  const LevelUPError = errors.LevelUPError
+  const keys = Object.keys(errors)
 
   keys.forEach(function (key) {
     t.ok(new errors[key]() instanceof LevelUPError)
@@ -13,7 +13,7 @@ test('all errors are instances of LevelUPError', function (t) {
 })
 
 test('NotFoundError has special properties', function (t) {
-  var error = new errors.NotFoundError()
+  const error = new errors.NotFoundError()
   t.equal(error.notFound, true)
   t.equal(error.status, 404)
   t.end()

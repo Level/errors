@@ -1,6 +1,6 @@
-var createError = require('errno').create
-var LevelUPError = createError('LevelUPError')
-var NotFoundError = createError('NotFoundError', LevelUPError)
+const createError = require('errno').create
+const LevelUPError = createError('LevelUPError')
+const NotFoundError = createError('NotFoundError', LevelUPError)
 
 NotFoundError.prototype.notFound = true
 NotFoundError.prototype.status = 404
