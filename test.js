@@ -63,12 +63,7 @@ test('NotFoundError has special properties', function (t) {
   t.end()
 })
 
-test.skip('error message is writable', function (t) {
-  // TODO: bug in prr? Given shorthand 'ewr', the effective options are:
-  // { enumerable: false, configurable: false, writable: false }
-  // Let's keep enumerable as-is, but set configurable and writable for flexibility.
-  // That's also the same as the `message` property of a new Error('foo').
-
+test('error message is writable for flexibility', function (t) {
   const error = new errors.WriteError('foo')
   error.message = 'Got error: ' + error.message
   t.is(error.message, 'Got error: foo')

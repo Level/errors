@@ -8,10 +8,10 @@ function createError (type, Proto) {
       message = message.message || message.name
     }
 
-    Object.defineProperty(this, 'type', { value: type, enumerable: false, writable: false, configurable: false })
-    Object.defineProperty(this, 'name', { value: type, enumerable: false, writable: false, configurable: false })
-    Object.defineProperty(this, 'cause', { value: cause, enumerable: false, writable: false, configurable: false })
-    Object.defineProperty(this, 'message', { value: message || '', enumerable: false, writable: false, configurable: false })
+    Object.defineProperty(this, 'type', { value: type, enumerable: false, writable: true, configurable: true })
+    Object.defineProperty(this, 'name', { value: type, enumerable: false, writable: true, configurable: true })
+    Object.defineProperty(this, 'cause', { value: cause, enumerable: false, writable: true, configurable: true })
+    Object.defineProperty(this, 'message', { value: message || '', enumerable: false, writable: true, configurable: true })
 
     Error.call(this)
 
