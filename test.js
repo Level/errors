@@ -30,7 +30,7 @@ test('error without message has expected properties', function (t) {
   t.is(error.type, 'ReadError')
   t.is(error.name, 'ReadError')
   t.is(error.cause, undefined)
-  // t.is(error.message, '') // TODO: bug
+  t.is(error.message, '')
   t.end()
 })
 
@@ -40,7 +40,7 @@ test('error with cause has expected properties', function (t) {
 
   t.is(error.type, 'ReadError')
   t.is(error.name, 'ReadError')
-  // t.ok(error.cause === cause) // TODO: bug in errno
+  t.ok(error.cause === cause)
   t.is(error.message, 'foo')
   t.end()
 })

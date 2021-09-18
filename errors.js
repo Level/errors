@@ -3,16 +3,15 @@
 function createError (type, Proto) {
   const Err = function (message, cause) {
     if (message && typeof message !== 'string') {
+      // Can be passed just a cause
+      cause = cause || message
       message = message.message || message.name
     }
-
-    // can be passed just a 'cause'
-    cause = typeof message !== 'string' ? message : cause
 
     Object.defineProperty(this, 'type', { value: type, enumerable: false, writable: false, configurable: false })
     Object.defineProperty(this, 'name', { value: type, enumerable: false, writable: false, configurable: false })
     Object.defineProperty(this, 'cause', { value: cause, enumerable: false, writable: false, configurable: false })
-    Object.defineProperty(this, 'message', { value: message, enumerable: false, writable: false, configurable: false })
+    Object.defineProperty(this, 'message', { value: message || '', enumerable: false, writable: false, configurable: false })
 
     Error.call(this)
 
