@@ -3,11 +3,12 @@
 const test = require('tape')
 const errors = require('.')
 
-test('all errors are instances of LevelUPError', function (t) {
+test('all errors are instances of Error and LevelUPError', function (t) {
   const LevelUPError = errors.LevelUPError
   const keys = Object.keys(errors)
 
   keys.forEach(function (key) {
+    t.ok(new errors[key]() instanceof Error)
     t.ok(new errors[key]() instanceof LevelUPError)
   })
 

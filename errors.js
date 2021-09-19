@@ -29,14 +29,11 @@ function createError (type, Proto) {
     }
   }
 
-  if (Proto != null) {
-    Err.prototype = new Proto()
-  }
-
+  Err.prototype = new Proto()
   return Err
 }
 
-const LevelUPError = createError('LevelUPError')
+const LevelUPError = createError('LevelUPError', Error)
 
 module.exports = {
   LevelUPError: LevelUPError,
