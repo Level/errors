@@ -64,7 +64,7 @@ test('NotFoundError has special properties', function (t) {
   t.end()
 })
 
-test('error message is writable for flexibility', function (t) {
+test('error message is writable to mirror node core conventions', function (t) {
   const error = new errors.WriteError('foo')
   error.message = 'Got error: ' + error.message
   t.is(error.message, 'Got error: foo')
