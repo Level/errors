@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.0.1] - 2021-09-24
+
+### Fixed
+
+- Don't wrap existing errors ([#37](https://github.com/Level/errors/issues/37)) ([`189f2b1`](https://github.com/Level/errors/commit/189f2b1)) (Vincent Weevers)
+
 ## [3.0.0] - 2021-04-09
 
 _If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
@@ -114,6 +120,8 @@ _If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 ## [1.0.1] - 2015-03-20
 
 :seedling: Initial release.
+
+[3.0.1]: https://github.com/Level/errors/compare/v3.0.0...v3.0.1
 
 [3.0.0]: https://github.com/Level/errors/compare/v2.0.1...v3.0.0
 
