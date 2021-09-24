@@ -19,9 +19,7 @@
     "LICENSE.md",
     "UPGRADING.md"
   ],
-  "dependencies": {
-    "errno": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "airtap": "^4.0.3",
     "airtap-playwright": "^1.0.1",
