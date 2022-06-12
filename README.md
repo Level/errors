@@ -1,6 +1,8 @@
 # level-errors
 
-> Error types for [levelup][levelup].
+**Error types for [levelup][levelup].**
+
+> :pushpin: This module will soon be [deprecated](https://github.com/Level/community/issues/113).
 
 [![level badge][level-badge]](https://github.com/Level/awesome)
 [![npm](https://img.shields.io/npm/v/level-errors.svg)](https://www.npmjs.com/package/level-errors)
