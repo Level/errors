@@ -1,17 +1,6 @@
 # level-errors
 
-**Error types for [levelup][levelup].**
-
-> :pushpin: This module will soon be [deprecated](https://github.com/Level/community/issues/113).
-
-[![level badge][level-badge]](https://github.com/Level/awesome)
-[![npm](https://img.shields.io/npm/v/level-errors.svg)](https://www.npmjs.com/package/level-errors)
-[![Node version](https://img.shields.io/node/v/level-errors.svg)](https://www.npmjs.com/package/level-errors)
-[![Test](https://img.shields.io/github/workflow/status/Level/errors/Test?label=test)](https://github.com/Level/errors/actions/workflows/test.yml)
-[![Coverage](https://img.shields.io/codecov/c/github/Level/errors?label=&logo=codecov&logoColor=fff)](https://codecov.io/gh/Level/errors)
-[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript&logoColor=fff)](https://standardjs.com)
-[![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
-[![Donate](https://img.shields.io/badge/donate-orange?logo=open-collective&logoColor=fff)](https://opencollective.com/level)
+**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**
 
 ## API
 
@@ -58,14 +47,8 @@ Error encoding data.
 
 See the [Contribution Guide](https://github.com/Level/community/blob/master/CONTRIBUTING.md) for more details.
 
-## Donate
-
-Support us with a monthly donation on [Open Collective](https://opencollective.com/level) and help us continue our work.
-
 ## License
 
 [MIT](LICENSE)
-
-[level-badge]: https://leveljs.org/img/badge.svg
 
 [levelup]: https://github.com/Level/levelup
